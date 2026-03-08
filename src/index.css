@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Design System Theme (includes color + typography + system tokens) */
+@import "../design-system/theme.css";
+
+/* Component Styles */
+@import "../design-system/components/components.css";
+
+/* Set JetBrains Mono as base font for everything */
+html, body {
+  font-family: var(--kol-font-family-mono);
+}
